@@ -1,0 +1,8 @@
+f=open("student.txt","a")
+for i in range(2):
+    roll=int(input("Enter the roll number="))
+    name=input("Enter the student name=")
+    mark=int(input("Enter the student subject mark="))
+    record=str(roll)+","+name+","+str(mark)+"\n"
+    print(record)
+f.close()

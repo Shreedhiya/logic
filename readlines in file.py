@@ -1,0 +1,5 @@
+myfile=open("abc.txt","r")
+s=myfile.readlines()
+size=len(s)
+print("number of lines=",size)
+myfile.close()
