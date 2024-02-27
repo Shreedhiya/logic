@@ -1,0 +1,1 @@
+print(round(float(input("Enter KM:"))/30,2),"liters")
