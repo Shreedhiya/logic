@@ -1,4 +1,6 @@
-string="1 w 2 r 4 y"
-string_cap = string.title()
-print(string_cap)
+input_user=input("enter a para:").split()
+for i in input_user:
+    for j in i:
+        if j.isupper():
+            print(i)
    
